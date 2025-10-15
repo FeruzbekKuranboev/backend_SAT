@@ -22,7 +22,8 @@ if not SECRET_KEY:
         raise ImproperlyConfigured('SECRET_KEY not found. Set SECRET_KEY env or add it to .env')
 
 ALLOWED_HOSTS = [
-    'localhost',
+    'https://student.4prepsat.com',
+    'https://teacher.4prepsat.com'
     '127.0.0.1',
     '0.0.0.0',
     'backend-sato.onrender.com',
